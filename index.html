@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>
+South African VAT Return Calculator
+</title>
+
+<meta name="description"
+content="Free South African VAT calculator, VAT registration checker and VAT guides">
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<nav class="menu">
+
+<a href="index.html">VAT Calculator</a>
+
+<a href="vat-registration.html">
+Registration
+</a>
+
+<a href="vat-categories.html">
+VAT Categories
+</a>
+
+<a href="vat-exempt-items.html">
+Exempt Items
+</a>
+
+<a href="vat201-guide.html">
+VAT201 Guide
+</a>
+
+</nav>
+
+<div class="hero">
+
+<h1>
+South African VAT Return Calculator
+</h1>
+
+<p>
+Estimate VAT payable and refunds.
+</p>
+
+</div>
+
+<div class="container">
+
+<h2>Sales (VAT inclusive)</h2>
+
+<input id="sales"
+type="number"
+placeholder="Enter sales">
+
+<h2>Expenses (VAT inclusive)</h2>
+
+<input id="expenses"
+type="number"
+placeholder="Enter expenses">
+
+<button onclick="calcVAT()">
+Calculate VAT
+</button>
+
+<div id="results"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
